@@ -27,7 +27,7 @@ const Project_Block = ({project_name, project_description, technologies, project
                 <div>
                 <p className={`font-bold text-xl font-poppins  ${(selected === objects[project_name]) ? 'text-teal-300':' text-white'}`}>{project_name}</p>
                 {/* <img src={require(project_image)} ></img> */}
-                <Image src={project_image} className="rounded-lg my-8 border-2 border-black h-32 w-full object-cover"></Image>
+                <Image alt='' src={project_image} className="rounded-lg my-8 border-2 border-black h-32 w-full object-cover"></Image>
                 <p className="h-16 font-inter text-sm text-gray-400">{project_description}</p>
                 <p className={`font-thin font-inter text-sm italic mt-8 ${(selected === objects[project_name]) ? 'text-teal-300':' text-white'}`}>{technologies}</p>
                 </div>
