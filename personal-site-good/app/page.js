@@ -9,6 +9,12 @@ import Navbar from './navbar/navbar'
 import Links from './links'
 import Footer from './footer'
 
+export const metadata = {
+  title: 'Aayaan Naqvi',
+};
+
+
+
 export default function Home() {
   
   return (
