@@ -1,7 +1,7 @@
 "use client";
  import { React, useState } from "react";
  import Project_Block from "../project_block";
-import image from '/public/trackr.png'
+import image from '/public/trackr2.png'
 import Image from 'next/image'
 import parago from '/public/parago.png'
 import opf from '/public/opf.png'
