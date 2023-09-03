@@ -11,6 +11,7 @@ import Footer from './footer'
 
 export const metadata = {
   title: 'Aayaan Naqvi',
+  description: 'My Personal Site'
 };
 
 
