@@ -60,7 +60,7 @@ export const Footer = () => {
                 </button>
             </a>
 
-            <p className='ml-56 font-inter mt-5'>Aayaan Naqvi</p>
+            <p className='ml-56 font-inter mt-5 text-white'>Aayaan Naqvi</p>
             
         </div>
     )
