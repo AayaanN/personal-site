@@ -8,7 +8,7 @@ import Work_Block from "./work_block";
 const Work = () => {
 
     return(
-        <div className="mt-20 w-full text-white" id="experience">
+        <div className="sm:mt-20 text-white" id="experience">
             <h2 className="text-3xl font-bold font-poppins">Experience</h2>
             <div className="rounded-xl ">
                 <Work_Block 

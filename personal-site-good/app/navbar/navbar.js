@@ -10,19 +10,19 @@ const Navbar= () => {
     return(
         <div className=" p-0 mb-20 flex text-white">
 
-                <Link href='#' className="mx-32 hover:text-teal-400">
+                <Link href='#' className="sm:mx-32 mx-2 hover:text-teal-400">
                     Home
                 </Link>
 
-                <Link href='#about' className="mx-32 hover:text-teal-400">
+                <Link href='#about' className="sm:mx-32 mx-2 hover:text-teal-400">
                     About
                 </Link>
 
-                <Link href='#experience' className="mx-32 hover:text-teal-400">
+                <Link href='#experience' className="sm:mx-32 mx-2 hover:text-teal-400">
                     Experience
                 </Link>
 
-                <Link href='#projects-section' className="mx-32 hover:text-teal-400" activeClass="active" spy={true}
+                <Link href='#projects-section' className="sm:mx-32 mx-2 hover:text-teal-400" activeClass="active" spy={true}
     smooth={true}
     offset={-70}
     duration={500}>
