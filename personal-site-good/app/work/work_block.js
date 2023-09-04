@@ -22,7 +22,7 @@
                 <p className={`w-full font-bold text-xl font-poppins ${(hovering === true) ? "text-teal-400":null}`}>{title} @ {company}</p>
                 <p className="font-inter font-semibold text-gray-400 mt-4">{date}</p>
                 <p className="font-inter sm:text-base text-gray-400 mt-4">{description}</p>
-                <p className={`font-inter font-base text-white mt-4 italic ${(hovering === true) ? "text-blue-400":'text-white'}`}>{technologies}</p>
+                <p className={`font-inter font-base mt-4 italic ${(hovering === true) ? "text-teal-400":"text-white"}`}>{technologies}</p>
 
             </div>
 
