@@ -20,7 +20,7 @@ import quickstat from '/public/quickstat.png'
 
     return(
         <div className="mt-20 " id="projects-section">
-            <h2 className="text-3xl font-bold mb-10 font-poppins">My Projects</h2>
+            <h2 className="text-3xl font-bold mb-10 font-poppins text-white">My Projects</h2>
             <div className="grid grid-cols-3 gap-0 rounded-xl ">
                 <Project_Block 
                     project_name='Trackr' 

@@ -8,7 +8,7 @@ import {animateScroll as scroll } from "react-scroll";
 const Navbar= () => {
 
     return(
-        <div className=" p-0 mb-20 flex ">
+        <div className=" p-0 mb-20 flex text-white">
 
                 <Link href='#' className="mx-32 hover:text-teal-400">
                     Home
