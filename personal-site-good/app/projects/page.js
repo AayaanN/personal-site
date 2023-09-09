@@ -7,6 +7,8 @@ import parago from '/public/parago.png'
 import opf from '/public/opf.png'
 import shacks from '/public/shacks3.png'
 import quickstat from '/public/quickstat.png'
+import site from '/public/site.png'
+
 
 
 
@@ -24,7 +26,7 @@ import quickstat from '/public/quickstat.png'
             <div className="sm:grid sm:grid-cols-3 gap-0 rounded-xl ">
                 <Project_Block 
                     project_name='Trackr' 
-                    project_description = 'A stock portfolio web app using machine learning to make investing easier.' 
+                    project_description = 'A stock portfolio web app using machine learning and neural networks to make investing easier through price forecasting.' 
                     technologies= 'React, TailwindCSS, Flask, Tensorflow.' project_link = 'https://github.com/AayaanN/trackr' 
                     project_image = {image}
                     selected={selected}
@@ -65,6 +67,16 @@ import quickstat from '/public/quickstat.png'
                     technologies= 'Python.' 
                     project_link = 'https://github.com/AayaanN/quickStat' 
                     project_image = {quickstat}
+                    selected={selected}
+                    setSelected={setSelected}
+                />
+
+                <Project_Block 
+                    project_name='Personal Site' 
+                    project_description = 'Is it cheating to put this as a project?' 
+                    technologies= 'Next.js, TailwindCSS, Vercel.' 
+                    project_link = 'https://github.com/AayaanN/personal-site/tree/master/personal-site-good' 
+                    project_image = {site}
                     selected={selected}
                     setSelected={setSelected}
                 />
