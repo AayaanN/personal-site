@@ -75,7 +75,7 @@ import site from '/public/site.png'
                     project_name='Personal Site' 
                     project_description = 'Is it cheating to put this as a project?' 
                     technologies= 'Next.js, TailwindCSS, Vercel.' 
-                    project_link = 'https://github.com/AayaanN/personal-site/tree/master/personal-site-good' 
+                    project_link = 'https://github.com/AayaanN/personal-site' 
                     project_image = {site}
                     selected={selected}
                     setSelected={setSelected}
